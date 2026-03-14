@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Submit a Business</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" onclick="window.location.href='main.html'">
+    <h1>Submit a Business</h1>
+  </header>
+
+  <main>
+    <form id="uploadForm">
+      <div class="form-field">
+        <input type="text" id="bizName" placeholder="Business Name" required />
+      </div>
+      <div class="form-field">
+        <input type="text" id="bizType" placeholder="Service Type" required />
+      </div>
+      <div class="form-field">
+        <input type="text" id="bizZip" placeholder="ZIP Code" required />
+      </div>
+      <div class="form-field">
+        <input type="text" id="bizAddress" placeholder="Full Address (optional)" />
+      </div>
+      <div class="form-field">
+        <textarea id="description" placeholder="Short Description"></textarea>
+      </div>
+      <div class="form-field">
+        <input type="file" id="bizImage" accept="image/*" required />
+      </div>
+      <button type="submit">Upload</button>
+    </form>
+
+    <p><button onclick="window.location.href='main.html'">Back to Search</button></p>
+  </main>
+
+  <script src="submit.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Local Service Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header acts as home button -->
+  <header class="site-header" onclick="goHome()">
+    <h1>Find a Local Service </h1>
+  </header>
+
+  <main>
+    <section id="search-section">
+      <div class="inputs">
+        <input type="text" id="zip" placeholder="ZIP code" aria-label="ZIP code" />
+        <input type="text" id="address" placeholder="Address (optional)" aria-label="Address" />
+        <input type="text" id="service" placeholder="Service (e.g., salon)" aria-label="Service" />
+        <button id="searchBtn" onclick="searchServices()">Search</button>
+        <button onclick="window.location.href='submit.html'">Submit a Business</button>
+      </div>
+    </section>
+
+    <section id="results">
+      <!-- dynamic search results go here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
