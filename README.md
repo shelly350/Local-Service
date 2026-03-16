@@ -22,4 +22,4 @@ This project was created to address the gap between small/local business owners.
 https://shelly350.github.io/Local-Service/
 
 ## Authors
-Shelsy Corado 
+Shelsy Corado  - shelsy_coradope@berkeley.edu
