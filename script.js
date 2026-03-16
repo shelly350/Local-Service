@@ -1,7 +1,7 @@
 function goHome() {
   // always navigate to index.html (no-op if already there)
-  if (!window.location.pathname.endsWith("main.html")) {
-    window.location.href = "main.html";
+  if (!window.location.pathname.endsWith("index.html")) {
+    window.location.href = "index.html";
   }
 }
 
