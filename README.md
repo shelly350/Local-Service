@@ -1,10 +1,13 @@
-# Local-Service
+# Local Service Finder
 Local Service Finder is a web application designed to help small and elderly-owned businesses gain visibility in their communities. Many business owners struggle to promote their services online, so this platform makes it easier for customers to discover and support them.
 Users can search for services by ZIP code and category, making it simple to find relevant local businesses. Additionally, customers can contribute by submitting businesses they know, helping expand the network and support more owners.
 
-## Description
+## How It Works 
+1. Enter your ZIP code
+2. Choose the type of service you’re looking for
+3. View a list of businesses that match your search
+4. Optionally submit a business to help others discover it
 
-An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
