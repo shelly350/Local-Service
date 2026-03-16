@@ -32,7 +32,7 @@ document.getElementById("uploadForm").addEventListener("submit", function (e) {
     localStorage.setItem("services", JSON.stringify(existing));
 
     alert("Business uploaded!");
-    window.location.href = "main.html";
+    window.location.href = "index.html";
   };
 
   reader.readAsDataURL(file);
