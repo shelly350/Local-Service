@@ -16,7 +16,7 @@ This project was created to address the gap between small/local business owners.
 * Improve search accuracy and filtering
 * Integrate maps (e.g., Google Maps API)
 * Add reviews and ratings for businesses
-* Enhance UI/UX for accessibility (especially for elderly users)
+* Enhance UI/UX for accessibility
 
 ## Live Demo
 https://shelly350.github.io/Local-Service/
