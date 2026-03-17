@@ -14,6 +14,7 @@ This project was created to address the gap between small/local business owners.
 ### Further Possible Improvements
 * Add user accounts and authentication
 * Improve search accuracy and filtering
+* Incorporate database
 * Integrate maps (e.g., Google Maps API)
 * Add reviews and ratings for businesses
 * Enhance UI/UX for accessibility
